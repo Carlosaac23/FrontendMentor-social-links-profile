@@ -1,0 +1,29 @@
+@font-face {
+  font-family: Inter;
+  src: url('assets/fonts/Inter-VariableFont_slnt\,wght.ttf');
+}
+
+body {
+  margin: 0;
+  background-color: hsl(0, 0%, 8%);
+  color: hsl(0, 0%, 100%);
+  font-family: Inter;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.card {
+  background-color: hsl(0, 0%, 12%);
+}
+
+.card-city {
+  color: hsl(75, 94%, 57%);
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
